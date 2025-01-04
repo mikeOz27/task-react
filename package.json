@@ -3,15 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://mikeOz27.github.io/task-react",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "alertifyjs": "^1.14.0",
     "bootstrap": "^5.3.3",
+    "gh-pages": "^6.3.0",
     "nes.css": "^2.2.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
